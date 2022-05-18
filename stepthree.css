@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+
+
+.one{
+    color: aqua;
+}
+
+
+
+#two{
+    color: rgb(245, 143, 10);
+}
+.three{
+    width: 30%;
+    height: 30vh;
+    background-color: plum;
+}
+.img{
+    width: 70%%;
+    height: 50vh;
+    background-image:url(/images/pexels-casey-cooper-3665468.jpg);
+    background-size:cover;
+    
+    
+}
+.three{
+    width: 70%;
+    height: 50vh;
+    border: 20px solid rebeccapurple;
+    margin: 30px 0px 0px 50px;
+    border-top-color: black;
+    padding:20px ;
+}
+.font{
+   font-size: large; 
+   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+   font-weight: 900;
+   font-style: italic;
+   line-height: 2;
+   letter-spacing: -2px;
+   text-shadow: 4px 4px 4px chartreuse;
+   /* font-family: 'Water Brush', sans-serif; */
+   font-family: 'Water Brush', cursive;
+}
+
+.table table,td,th{
+    border: 2px solid red;
+    border-collapse: collapse;
+
+}
+.table tr{
+    text-align: center;
+    text-transform: capitalize;
+     
+    }
+    .table th{
+        text-align: center;
+        color: red;
+        background-color: black;
+        text-transform: uppercase;
+    }
+    .table td{
+        padding: 2px 5px 10px ;
+    }
+    .table tr:nth-child(odd){
+        background-color: aqua;
+    }
+.position{
+    width: 50%;
+    height: 50vh;
+    border: 5px solid red;
+    /* position: relative; */
+
+}
+.div1{
+    height: 10vh;
+    width: 20%;
+    background-color:orangered;
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.div2{
+    height: 10vh;
+    width: 20%;
+    background-color:gold;
+    position: sticky;
+    top: 300px;
+ 
+}
+.div3{
+    height: 10vh;
+width: 20%;
+background-color: blue;
+
+
+}
+.div4{
+    height: 10vh;
+    width: 20%;
+    background-color: palevioletred;
+   
+    
+
+}
+.div5{
+    height: 10vh;
+    width: 20%;
+    background-color: yellow;
+   
+}
+.fonts{
+  height: 60vh;  
+  width: 50%;
+  border: 2px solid red;
+  padding-left: 2px;
+  font-size: medium;
+  text-shadow: 2px 2px 2px salmon;
+  line-height: 1;
+  letter-spacing: 2px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  
+
+
+}.duuh select{
+    width: 30%;
+    padding: 7px;
+    background-color: aliceblue;
+    border: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.submit button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+    margin: none;
+    padding: 7px;
+    transition: 1s;
+
+
+}
+.submit button:hover{
+    background-color: aliceblue;
+    color: black;
+
+}
+.inputs input{
+margin-bottom: 10px;
+ display: block; 
+ width:20% ;
+ /* border-radius: 20px; */
+ /* background-color: aliceblue; */
+ outline: none;
+ transition:width 1s ease-in-out
+}
+.inputs input:focus{
+    background-color: plum ;
+    outline: none;
+    border: none;
+    width: 60%;
+}
+
+.inputs{
+    margin-bottom: 10px;
+}
